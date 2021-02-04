@@ -2,6 +2,8 @@
 
 This websites list up my good ideas and bad ideas. Click an image of the idea icon or the trash can to see the lists.
 
+https://grayusan.github.io/ideas-or-trash/
+
 ## Build Setup
 
 ```bash
