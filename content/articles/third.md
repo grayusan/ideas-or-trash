@@ -1,7 +1,7 @@
 ---
-title: My very fisrt post
-description: 'My first post'
-tags: [gideas]
+title: My third post
+description: 'My second bad idea'
+tags: [bideas]
 ---
 
 Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.

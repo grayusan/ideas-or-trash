@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/ideas-or-trash/favicon.ico' },
       { rel: 'stylesheet', href: 'assets/simple-grid.css' },
     ]
   },
@@ -50,5 +50,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  router: {
+    base: '/ideas-or-trash/'
+  },
 }
