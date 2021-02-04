@@ -1,11 +1,11 @@
 <template>
     <div class="container">
-    <h2 id="club_top_title">Good ideas</h2>
+    <h2 id="bad_idea_title">Good ideas</h2>
       <div class="card" v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
           <div class="card-body">
           <h4 class="card-title" id="card-title-dec">{{ article.title }}</h4>
-          <div class="card-text">{{ article.description }}</div>
+          <!-- <div class="card-text">{{ article.description }}</div> -->
           </div>
         </NuxtLink>
       </div>
@@ -32,7 +32,12 @@
   }
 </script>
 
-<style>
+<style> 
+  #bad_idea_title{
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+
   .card {
     margin-bottom: 20px;
   }

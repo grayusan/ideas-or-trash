@@ -7,10 +7,11 @@
             <img src="../assets/svg/idea.svg" width="240em" />
           </div>
         </NuxtLink>
-
-        <div class="trash">
-          <img src="../assets/svg/basket.svg" width="240em" />
-        </div>
+        <NuxtLink to="/bad_ideas">
+          <div class="trash">
+            <img src="../assets/svg/basket.svg" width="240em" />
+          </div>
+        </NuxtLink>
       </div>
       <div class="col-3-sm"></div>
       <div class="col-6">

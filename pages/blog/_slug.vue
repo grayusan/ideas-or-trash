@@ -6,14 +6,14 @@
     <p>{{ article.description }}</p> -->
     <!-- <img :src="article.img" :alt="article.alt" /> -->
     
-    <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+    <p class="dates">Article last updated: {{ formatDate(article.updatedAt) }}</p>
     <hr>
     <!-- <nav>
         <ul>
             <li v-for="link of article.toc" :key="link.id">
             <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
             </li>
-        </ul>
+        </ul>ß
     </nav> -->
     <nuxt-content :document="article" />
   </article>
@@ -64,6 +64,15 @@
 
   hr{
     color: "#00FFC3";
+    margin-bottom: 20px;
+  }
+
+  .dates{
+    margin-top: 20px;
+  }
+
+  img{
+    width: 40em;
   }
 
 </style>
