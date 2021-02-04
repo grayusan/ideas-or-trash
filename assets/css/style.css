@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.wbody {
+    padding: 0px 50px 0px 50px;
+}
+
+.idea{
+    padding: 100px 0px 0px 10em;
+}
+
+.widthw{
+    width: 300px;
+}
+
+.title{
+    font-family: 'Londrina Outline', cursive;
+}
