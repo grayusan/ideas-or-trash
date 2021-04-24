@@ -36,7 +36,7 @@ export default {};
  <style>
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 img {
-  max-width: 240px;;
+  width: 240px;
   height: auto;
 }
 </style>
