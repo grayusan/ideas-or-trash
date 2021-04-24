@@ -4,12 +4,12 @@
       <div class="col-3">
         <NuxtLink to="/good_ideas">
           <div class="idea">
-            <img src="../assets/svg/idea.svg" width="240em" />
+            <img src="../assets/svg/idea.svg" width="240px" />
           </div>
         </NuxtLink>
         <NuxtLink to="/bad_ideas">
           <div class="trash">
-            <img src="../assets/svg/basket.svg" width="240em" />
+            <img src="../assets/svg/basket.svg" width="240px" />
           </div>
         </NuxtLink>
       </div>
@@ -35,4 +35,8 @@ export default {};
 
  <style>
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+img {
+  max-width: 240px;;
+  height: auto;
+}
 </style>
