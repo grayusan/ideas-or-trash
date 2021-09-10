@@ -8,4 +8,4 @@ tags: [gideas]
 
 This application allows users to use twitter as memos by sorting tweets by a hashtag. When users attach #memo to their tweets, users can use this native application to leave notes with their tweets with markdown. 
 
-<img src="../../images/IMG_0349.PNG">
+<img :src="require(`~/images/${IMG_0349.PNG}`)">

@@ -6,12 +6,18 @@
 </template>
 
 <script>
-// import Header from '~/components/Header.vue'
-// export default {
-//   components: {
-//    Header,
-//  },
-// }
+  export default {
+    head() {
+      return {
+        meta: [
+          {
+            name: 'google-site-verification',
+            content: 'ODwWBQ-vaTjZAtYq-N4MO3MxBm4_tXp7Omercu470Ko'
+          }
+        ]
+      }
+    }
+  }
 </script>
 
 <style>
